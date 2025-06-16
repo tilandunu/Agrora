@@ -1,27 +1,66 @@
-# Agrora - Online Grocery Store
+# Agrora
 
-Agrora is an online marketplace connecting users with a wide range of agricultural products. The platform allows users to browse and purchase products, while administrators can manage products, stock, and user accounts.
+Agrora is a web-based application developed in PHP. It provides various features for user management, product inventory, order processing, and administration. This project is structured for easy extensibility and maintenance.
 
-## Technologies Used
+## Features
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** PHP
-- **Database:** SQL (using `agrora.sql` for database structure/initial data)
-- **Other:** Font Awesome (for icons)
+- User registration and authentication (Sign up/sign in with email)
+- Product management (add, edit, delete products)
+- Stock and inventory tracking
+- Order placement and checkout process
+- Admin dashboard for managing users and products
+- Privacy policy and about us pages
 
-## Installation Instructions
+## Project Structure
 
-1.  **Clone the repository:**
+- `index.php` - Main entry point of the application
+- `admin.php` - Admin dashboard and controls
+- `products.php`, `productManagement.php` - Product and inventory management
+- `checkout.php`, `finalOrder.html` - Order and checkout flow
+- `signinpagewithEmail.html`, `signuppagewithEmail.html` - Authentication
+- `aboutus.html`, `privacyPolicy.html` - Informational pages
+- `php/` - Additional PHP scripts
+- `styles/` - CSS stylesheets
+- `src/` - Source code and assets
 
-```
-bash
-    git clone <repository_url>
+## Getting Started
 
-```
+### Prerequisites
 
-2.  **Set up a web server:** Ensure you have a web server environment set up (e.g., Apache, Nginx) with PHP support.
-3.  **Set up the database:**
-    - Create a new database in your database management system (e.g., MySQL).
-    - Import the `agrora.sql` file into your newly created database. This will set up the necessary tables and potentially populate some initial data.
-4.  **Configure database connection:** Update the PHP files in the `WEBSITE/php/` directory (specifically those interacting with the database) with your database credentials (database name, username, password, host).
-5.  **Place project files on the web server:** Move the contents of the `WEBSITE` directory to your web server's document root or a designated project folder.
+- PHP 7.4 or higher
+- A web server such as Apache or Nginx
+- MySQL or compatible database (if used in your project)
+
+### Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/tilandunu/Agrora.git
+   ```
+
+2. Place the files in your web server's root directory.
+
+3. Configure your database connection (if required) in the PHP files or a config file.
+
+4. Start your server and access the app via your browser.
+
+## Usage
+
+- Visit the home page to browse or manage products.
+- Register or sign in to place orders.
+- Admin users can manage products, stock, and users through dedicated interfaces.
+
+## License
+
+This project is open-source. License information can be added here.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Contact
+
+Project owner: [tilandunu](https://github.com/tilandunu)
+
+---
