@@ -1,4 +1,4 @@
-# Agrora - Online Agricultural Product Marketplace
+# Agrora - Online Grocery Store
 
 Agrora is an online marketplace connecting users with a wide range of agricultural products. The platform allows users to browse and purchase products, while administrators can manage products, stock, and user accounts.
 
