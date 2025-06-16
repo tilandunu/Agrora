@@ -1,0 +1,287 @@
+* {
+  border: 0px;
+  margin: 0px;
+}
+
+#logoutdiv {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  bottom: 600px;
+  left: 52px;
+  right: 0px;
+  align-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+#logout {
+  color: white;
+}
+
+#ordersBackgroundDiv {
+  margin: 80px 192px;
+  display: flex;
+  padding: 130px 30px;
+  background-color: white;
+  box-shadow: 0px 26px 64px -40px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.buttonTable {
+  text-decoration: none;
+  color: black;
+  border: black solid 0.5px;
+  padding: 6px 10px;
+  /* box-shadow: 1px 11px 15px -12px; */
+}
+
+.buttonTable:hover {
+  background-color: #521212;
+  color: white;
+  border-color: #521212;
+  transition: 0.6s;
+}
+
+#admin:hover {
+  color: white;
+  background-color: black;
+  transition: 0.6s;
+}
+
+#selectDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+#select {
+  margin: 0px 10px;
+  width: 250px;
+  padding: 5px;
+  background-color: #efefef;
+}
+
+#admin {
+  font-size: 15px;
+  color: white;
+  display: flex;
+  width: 221px;
+  height: 60px;
+  font-family: "Inter", sans-serif;
+  padding: 14px 20px;
+  border: 1px solid #521212;
+  align-items: center;
+  margin: 40px 0px 70px 0px;
+  background-color: #521212;
+  align-content: center;
+  justify-content: center;
+}
+
+#divAdmin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logout:hover {
+  cursor: pointer;
+  color: #d0ffef;
+}
+
+#addproductsform {
+  background-color: #ffffff;
+  margin: 0px 0px 0px 0px;
+}
+
+#logoutLabel {
+  font-size: 10px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+#header {
+  font-size: 70px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#subheader {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#headerdiv {
+  display: flex;
+  justify-content: center;
+  padding: 70px 0px 0px 0px;
+  flex-direction: column;
+}
+
+.productbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  border-radius: 11px 11px 0px 0px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  width: 190px;
+  background-color: #b4adad;
+}
+
+.productbutton:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: 0.4s;
+}
+
+#activebutton {
+  background-color: #ffffff;
+  color: black;
+  width: 230px;
+}
+
+.label {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+}
+
+#buttondiv {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 0px;
+  padding: 70px 0px 0px 0px;
+}
+
+#submitDiv {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+  margin: 20px 0px 0px 0px;
+}
+
+#cartTableContainer {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-product-image {
+  width: 50px;
+  height: 50px;
+}
+
+#cartTable {
+  padding: 60px 90px;
+}
+
+.tableRows {
+  padding: 1px 0px;
+}
+
+#tableHeaderRow {
+  padding: 0px;
+}
+
+.tableheaders {
+  padding: 20px 50px;
+  border: 1px solid black;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  background: #521212;
+  color: white;
+}
+
+.tableBody {
+  padding: 0px 0px;
+}
+
+.tableData {
+  padding: 10px 0px;
+  text-align: center;
+  border: #b5b5b5 solid 1px;
+  font-family: "Inter", sans-serif;
+}
+
+#total {
+  font-size: 30px;
+  color: black;
+  display: flex;
+  margin: 0 auto;
+  width: 444px;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #246439;
+}
+
+#submit {
+  width: 176px;
+  height: 35px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #000000;
+  border-radius: 60px;
+  font-size: 12.1px;
+  z-index: 999;
+}
+
+#submit:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: 0.7s;
+}
+
+#backgroundForm {
+  margin: 80px 192px;
+  display: flex;
+  padding: 130px 30px;
+  background-color: white;
+  box-shadow: 0px 26px 64px -40px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.formInput {
+  display: flex;
+  background-color: #efefef;
+  width: 570px;
+  margin: 0px 30px;
+  padding: 1px 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+.formcontent {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: flex-end;
+}
+
+#backgroundDiv {
+  background: #521212;
+  padding: 0px 0px;
+}
+
+hr {
+  text-align: center;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0.5px;
+  background: white;
+  width: 310px;
+  margin: 0 auto;
+  position: relative;
+  top: 7px;
+  bottom: 0px;
+}

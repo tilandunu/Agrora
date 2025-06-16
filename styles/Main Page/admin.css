@@ -1,0 +1,97 @@
+* {
+  border: 0px;
+  margin: 0px;
+}
+
+#logoutdiv {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  bottom: 600px;
+  left: 52px;
+  right: 0px;
+  align-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+#logout {
+  color: white;
+}
+
+#logout:hover {
+  cursor: pointer;
+  color: #d0ffef;
+}
+
+#logoutLabel {
+  font-size: 10px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+#header {
+  font-size: 70px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#subheader {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#headerdiv {
+  display: flex;
+  justify-content: center;
+  padding: 210px 0px;
+  flex-direction: column;
+}
+
+.productbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  border-radius: 22px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  width: 190px;
+}
+
+.productbutton:hover {
+  background-color: #294d57;
+  color: white;
+  transition: 0.4s;
+}
+
+#buttondiv {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  row-gap: 0px;
+  padding: 50px 0px;
+}
+
+#backgroundDiv {
+  background: #0a232a;
+  padding: 0px 0px;
+}
+
+hr {
+  text-align: center;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0.5px;
+  background: white;
+  width: 310px;
+  margin: 0 auto;
+  position: relative;
+  top: 7px;
+  bottom: 0px;
+}

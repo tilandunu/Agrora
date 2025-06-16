@@ -1,0 +1,280 @@
+* {
+  border: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#logoutdiv {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  bottom: 600px;
+  left: 52px;
+  right: 0px;
+  align-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+#searchInput {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 60px 0px;
+}
+
+#logout {
+  color: white;
+}
+
+#logout:hover {
+  cursor: pointer;
+  color: #d0ffef;
+}
+
+#search {
+  background-color: white;
+  width: 400px;
+  height: 30px;
+  border-style: none;
+  border-radius: 60px;
+  align-items: center;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 10px;
+  padding-left: 20px;
+  /* position: relative; */
+  left: 50px;
+  top: 0px;
+  letter-spacing: 2px;
+}
+
+#search::placeholder {
+  color: rgb(59, 59, 59);
+  font-family: "Raleway", sans-serif;
+  font-size: 7.5px;
+}
+
+#logoutLabel {
+  font-size: 10px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+#header {
+  font-size: 70px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#subheader {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#headerdiv {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  flex-direction: column;
+}
+
+.productbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  border-radius: 22px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  width: 190px;
+}
+
+.productbutton:hover {
+  background-color: #294d57;
+  color: white;
+  transition: 0.4s;
+}
+
+#buttondiv {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  row-gap: 0px;
+  padding: 50px 0px;
+}
+
+#backgroundDiv {
+  background: #0a232a;
+  padding: 80px 0px 588px 0px;
+}
+
+#navbutton1 {
+  display: flex;
+  color: white;
+  width: 39px;
+  justify-content: center;
+  position: absolute;
+  top: 42px;
+  left: 135px;
+}
+
+#selectionbuttonsdiv {
+  display: flex;
+  margin: 0 auto;
+  gap: 40px;
+  justify-content: space-evenly;
+}
+
+.selectionbuttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 50px;
+  font-family: "Raleway", sans-serif;
+  z-index: 999;
+}
+
+#filterButtons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 30px 0px;
+  position: relative;
+  top: 106px;
+}
+
+.filterButton {
+  width: 190px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #0a232a;
+  color: white;
+}
+
+.filterButton:hover {
+  color: black;
+  background-color: rgb(216, 216, 216);
+  transition: 0.6s;
+  border: 1px black solid;
+}
+
+#productDeleteBut {
+  width: 120px;
+  height: 32px;
+  border-radius: 30px;
+}
+
+#productDeleteBut:hover {
+  background-color: #0a232a;
+  color: white;
+  transition: 0.6s;
+}
+
+#backgroundForm {
+  margin: 57px 182px;
+  padding: 110px 30px;
+  background-color: white;
+}
+
+#backgroundFormUser {
+  margin: -3px 182px;
+  padding: 110px 30px;
+  background-color: white;
+}
+
+#activeOrderDiv {
+  margin: 150px 32px;
+  padding: 130px 30px;
+  background-color: white;
+}
+
+#backgroundFormDel {
+  margin: 70px 100px;
+  padding: 130px 0px;
+  background-color: white;
+}
+
+.formcontent {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.label {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+}
+
+.formInput {
+  display: flex;
+  background-color: #efefef;
+  width: 570px;
+  padding: 1px 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+#submitDiv {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+#submit {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  width: 134px;
+  height: 40px;
+  justify-content: center;
+}
+
+#select {
+  font-family: "Raleway", sans-serif;
+}
+
+#productTable {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 760px;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+}
+
+tr {
+  display: flex;
+}
+
+#productTitle {
+  background-color: #0a232a;
+  display: flex;
+}
+
+th {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  color: #f3fcff;
+  padding: 20px 10px;
+}
+
+td {
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  border: 1px solid #afafaf;
+  padding: 25px 10px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  align-content: center;
+  align-items: center;
+}

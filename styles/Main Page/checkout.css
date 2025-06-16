@@ -1,0 +1,308 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#headerDiv {
+  display: flex;
+  background-color: #246439;
+  justify-content: center;
+}
+
+#header {
+  color: white;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  padding: 40px 70px;
+}
+
+#navbar {
+  justify-content: center;
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  gap: 25px;
+  z-index: 999;
+  width: 100px;
+  display: flex;
+}
+
+#quantityRow {
+  width: 310px;
+}
+
+#quantityBar {
+  margin: 0px 0px;
+  position: relative;
+  left: 0px;
+  padding: 11px 10px;
+}
+
+#deleteButtonRow {
+  border: none;
+  position: absolute;
+  right: 28px;
+  padding: 0px 0px;
+  margin: 19px 0px;
+}
+
+#updateButtonRow {
+  border: none;
+  position: absolute;
+  right: 650px;
+  padding: 0px 0px;
+  margin: 18px 0px;
+}
+
+#navbutton1 {
+  color: white;
+  font-size: 21px;
+}
+
+#navbutton1:hover {
+  cursor: pointer;
+  color: #a1ffb8;
+  transition: 0.6s;
+}
+
+#navbutton2 {
+  color: white;
+  font-size: 21px;
+}
+
+#navbutton2:hover {
+  cursor: pointer;
+  color: #a1ffb8;
+  transition: 0.6s;
+}
+
+.navbuttons {
+  text-decoration: none;
+}
+
+#pageContentDiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#cartTableContainer {
+  /* border: #646464 1px solid; */
+  padding: 0px 20px;
+}
+
+.cart-product-image {
+  width: 50px;
+  height: 50px;
+}
+
+#cartTable {
+  padding: 60px 90px;
+}
+
+.tableRows {
+  padding: 1px 0px;
+}
+
+#tableHeaderRow {
+  padding: 0px;
+}
+
+.tableheaders {
+  padding: 20px 50px;
+  /* border: 1px solid black; */
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  background: #246439;
+  color: white;
+}
+
+.tableBody {
+  padding: 0px 0px;
+}
+
+.tableData {
+  padding: 10px 0px;
+  text-align: center;
+  border: #b2b2b2 solid 1px;
+  font-family: "Inter", sans-serif;
+}
+
+.tableHide {
+  display: none;
+  padding: 10px 0px;
+  text-align: center;
+  border: #b2b2b2 solid 1px;
+  font-family: "Inter", sans-serif;
+}
+
+#total {
+  font-size: 30px;
+  color: black;
+  display: flex;
+  margin: 0px 0px 0px 421px;
+  width: 244px;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #246439;
+}
+
+.formInputs {
+  padding: 10px 10px;
+  width: 297px;
+}
+
+.methodDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0px 20px 0px;
+}
+
+.contentDiv {
+  display: flex;
+  padding: 5px 0px;
+  justify-content: space-between;
+}
+
+#paymentMethod {
+  font-family: "Raleway", sans-serif;
+  padding: 10px 21px;
+}
+
+#formDiv {
+  display: flex;
+  padding: 40px 49px 70px 49px;
+  margin: 130px 100px;
+  width: 630px;
+  /* border: 1px #646464 solid; */
+  box-shadow: 0px 3px 13px -8px;
+}
+
+.labelForm {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  padding: 0px 145px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+
+#orderPlaceButton {
+  width: 130px;
+  height: 50px;
+  background-color: #246439;
+  color: white;
+  position: relative;
+  left: 0px;
+  margin: 20px 0px 0px 500px;
+  border: none;
+  z-index: 999;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 90px 0px 0px 0px;
+}
+
+#footercontent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #313131;
+  justify-content: space-around;
+  padding: 0px 60px 0px 60px;
+}
+
+#footerText {
+  padding: 5px 5px;
+  width: 800px;
+}
+
+#Ftext {
+  color: white;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  text-align: justify;
+  padding: 20px 30px;
+}
+
+#footlinks {
+  padding: 30px 50px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  row-gap: 6px;
+}
+
+#footlinks a {
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  color: #e0e0e0;
+}
+
+#footlinks p {
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+#contactfoot {
+  padding: 30px 50px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  row-gap: 10px;
+  position: relative;
+  top: -4px;
+}
+
+#contacthead {
+  font-weight: bold;
+}
+
+#rectangle {
+  background-color: #1e1e1e;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#rectangle p {
+  color: #909090;
+  font-size: 8px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 5px;
+}
+
+.fa {
+  color: white;
+}
+
+#footericons {
+  display: flex;
+  column-gap: 20px;
+}
+
+#contactfoot p {
+  color: white;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  padding: 0px 0px 0px;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+}

@@ -1,0 +1,218 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+a,
+button {
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 52px;
+  bottom: 0px;
+  left: 50px;
+  right: 0px;
+  gap: 17px;
+  z-index: 999;
+  width: 100px;
+  height: 0px;
+}
+
+#navbutton1 {
+  color: white;
+  font-size: 21px;
+}
+
+#navbutton1:hover {
+  cursor: pointer;
+  color: #78ebff;
+  transition: 0.6s;
+}
+
+#navbutton2 {
+  color: white;
+  font-size: 21px;
+}
+
+#navbutton2:hover {
+  cursor: pointer;
+  color: #78ebff;
+  transition: 0.6s;
+}
+
+.navbuttons {
+  text-decoration: none;
+  height: 0px;
+}
+
+#logoutdiv {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  bottom: 560px;
+  right: 38px;
+  align-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+#logout {
+  color: white;
+}
+
+#logout:hover {
+  cursor: pointer;
+  color: #d0ffef;
+}
+
+#logoutLabel {
+  font-size: 10px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+#headertopics {
+  display: flex;
+  background-color: rgb(53 99 107);
+  margin: 0px;
+  padding: 26px 25px 66px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#headertopics:hover {
+  cursor: pointer;
+}
+
+#addproductsdiv {
+  display: none;
+}
+
+#topic {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 48px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: -0.9px;
+  position: relative;
+  left: 3px;
+  padding: 0px 0px 10px;
+  color: #bdcfcf;
+}
+
+#subtopic {
+  font-size: 7px;
+  font-family: "Raleway", sans-serif;
+  color: #ced8d8;
+  position: relative;
+  left: 3px;
+  bottom: 22px;
+}
+
+#header {
+  display: flex;
+  font-size: 99px;
+  font-family: "Raleway", sans-serif;
+  padding: 90px 0px 90px;
+}
+
+.buttonsdiv {
+  display: flex;
+  column-gap: 20px;
+  padding: 10px 10px 30px;
+  position: absolute;
+  top: 253px;
+  right: 160px;
+}
+
+.buttonsdiv button {
+  display: flex;
+  color: black;
+  padding: 12px 30px;
+  border-radius: 10px 0px;
+  border: 0px none;
+  font-family: "Raleway", sans-serif;
+}
+
+#contentDiv {
+  display: flex;
+  background-color: #e5e5e5;
+  padding: 60px 100px;
+  flex-direction: column;
+}
+
+.contentItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  width: 156px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.labelcontent {
+  flex: 2;
+  font-size: 17px;
+  background-color: #eff0f0;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 30px;
+}
+
+#formDiv {
+  display: flex;
+  background-color: #e5e5e5;
+  padding: 50px 100px;
+  flex-direction: column;
+  display: none;
+}
+
+.formItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.formcontent {
+  flex: 2;
+  font-size: 14px;
+  background-color: #eff0f0;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  height: 36px;
+  line-height: 30px;
+  padding: 0 30px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+#submitbutton {
+  display: flex;
+  color: black;
+  padding: 12px 30px;
+  border-radius: 10px 0px;
+  border: 0px none;
+  font-family: "Raleway", sans-serif;
+}

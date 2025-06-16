@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/Main Page/signinpagewithEmail.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="src/icons/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+
+    <!--FONTS-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>AGRORA</title>
+  </head>
+  <body>
+    <div id="innerborder">
+      <div id="navbar">
+        <a href="javascript:history.back()" class="navbuttons"
+          ><span class="material-symbols-outlined" id="navbutton1">
+            arrow_back_ios_new
+          </span></a
+        >
+        <a href="index.php" class="navbuttons"
+          ><span class="material-symbols-outlined" id="navbutton2">
+            home
+          </span></a
+        >
+      </div>
+
+      <div class="contentdiv">
+        <h1 id="header">AGRORA</h1>
+        <span class="material-symbols-outlined" id="leaf"> eco </span>
+        <br />
+        <h2 id="semiheader">Sign in using your email</h2>
+        <br />
+      </div>
+      <div id="bottomcontent">
+        <form method="post" action="php/signin.php" id="form1">
+          <div class="inputdiv">
+            <label for="Email" class="label">Email</label><br />
+            <input
+              type="email"
+              class="inputs"
+              name="emailAddress"
+              required
+            /><br />
+          </div>
+
+          <div class="inputdiv">
+            <label for="password" class="label">Password</label><br />
+            <input
+              type="password"
+              class="inputs"
+              name="password"
+              required
+            /><br />
+          </div>
+
+          <input type="submit" id="submit" value="LOG IN" />
+        </form>
+        <a href="signuppagewithEmail.html" id="link">
+          DON'T HAVE AN ACCOUNT SIGN UP HERE
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
